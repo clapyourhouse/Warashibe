@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2277B5B15A6FD7600FACA09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2277B5A15A6FD7600FACA09 /* UIKit.framework */; };
+		C2277B5D15A6FD7600FACA09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2277B5C15A6FD7600FACA09 /* Foundation.framework */; };
+		C2277B5F15A6FD7600FACA09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2277B5E15A6FD7600FACA09 /* CoreGraphics.framework */; };
+		C2277B6515A6FD7600FACA09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2277B6315A6FD7600FACA09 /* InfoPlist.strings */; };
+		C2277B6715A6FD7600FACA09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2277B6615A6FD7600FACA09 /* main.m */; };
+		C2277B6B15A6FD7600FACA09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2277B6A15A6FD7600FACA09 /* AppDelegate.m */; };
+		C2277B7715A6FF7400FACA09 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = C2277B7615A6FF7400FACA09 /* ViewController1.m */; };
+		C2277B7A15A6FF8700FACA09 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C2277B7915A6FF8700FACA09 /* ViewController2.m */; };
+		C24CFC1115FF585200989161 /* tab.png in Resources */ = {isa = PBXBuildFile; fileRef = C24CFC1015FF585200989161 /* tab.png */; };
+		C24CFC1315FF586100989161 /* tabpen.png in Resources */ = {isa = PBXBuildFile; fileRef = C24CFC1215FF586100989161 /* tabpen.png */; };
+		C278B65E15CA6D4500EAAC00 /* koukan_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C278B65D15CA6D4500EAAC00 /* koukan_ViewController.m */; };
+		C28C4D6315A71D73007EC94E /* Setting_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28C4D6215A71D73007EC94E /* Setting_ViewController.m */; };
+		C28F34D015ADC1980005C928 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28F34CF15ADC1980005C928 /* Twitter.framework */; };
+		C28F34D315ADCABC0005C928 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28F34D215ADCABC0005C928 /* Accounts.framework */; };
+		C2931ACE15AACF6100FB6A60 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = C2931ACD15AACF6100FB6A60 /* ViewController3.m */; };
+		C2931B2D15AD122500FB6A60 /* credit_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2931B2C15AD122500FB6A60 /* credit_ViewController.m */; };
+		C2B5783815F754CC00EB195A /* Warashibe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2B5783615F754CC00EB195A /* Warashibe.xcdatamodeld */; };
+		C2D5BA4715F5E18A00863BAA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D5BA4615F5E18A00863BAA /* CoreData.framework */; };
+		C2DB57F915F883920044A6E0 /* CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB57F815F883920044A6E0 /* CoreDataClass.m */; };
+		C2DB57FF15F88F9C0044A6E0 /* PersonCon.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB57FE15F88F9A0044A6E0 /* PersonCon.m */; };
+		C2DB583C15FA0BB30044A6E0 /* warawara.png in Resources */ = {isa = PBXBuildFile; fileRef = C2DB583B15FA0BB30044A6E0 /* warawara.png */; };
+		C2DB583E15FA0BC50044A6E0 /* TabMigi.png in Resources */ = {isa = PBXBuildFile; fileRef = C2DB583D15FA0BC50044A6E0 /* TabMigi.png */; };
+		C2E45B1915F5BF0D008BBD1E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E45B1815F5BF0D008BBD1E /* Person.m */; };
+		C2FA49D315B6F96E00DE20C5 /* warashibe1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2FA49D215B6F96E00DE20C5 /* warashibe1.jpg */; };
+		C2FA4A6915BBBB7200DE20C5 /* NAVController1.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FA4A6815BBBB7200DE20C5 /* NAVController1.m */; };
+		C2FA4A6D15BBC33900DE20C5 /* NAVController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FA4A6C15BBC33900DE20C5 /* NAVController2.m */; };
+		C2FA4A7015BBC34A00DE20C5 /* NAVController3.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FA4A6F15BBC34A00DE20C5 /* NAVController3.m */; };
+		C2FA4A7715BBC67A00DE20C5 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FA4A7615BBC67A00DE20C5 /* XMLParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2277B5615A6FD7600FACA09 /* Warashibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Warashibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2277B5A15A6FD7600FACA09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2277B5C15A6FD7600FACA09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2277B5E15A6FD7600FACA09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2277B6215A6FD7600FACA09 /* Warashibe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Warashibe-Info.plist"; sourceTree = "<group>"; };
+		C2277B6415A6FD7600FACA09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2277B6615A6FD7600FACA09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2277B6815A6FD7600FACA09 /* Warashibe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Warashibe-Prefix.pch"; sourceTree = "<group>"; };
+		C2277B6915A6FD7600FACA09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2277B6A15A6FD7600FACA09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2277B7515A6FF7400FACA09 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		C2277B7615A6FF7400FACA09 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		C2277B7815A6FF8700FACA09 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		C2277B7915A6FF8700FACA09 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		C24CFC1015FF585200989161 /* tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab.png; sourceTree = "<group>"; };
+		C24CFC1215FF586100989161 /* tabpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabpen.png; sourceTree = "<group>"; };
+		C278B65C15CA6D4500EAAC00 /* koukan_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = koukan_ViewController.h; sourceTree = "<group>"; };
+		C278B65D15CA6D4500EAAC00 /* koukan_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = koukan_ViewController.m; sourceTree = "<group>"; };
+		C28C4D6115A71D73007EC94E /* Setting_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting_ViewController.h; sourceTree = "<group>"; };
+		C28C4D6215A71D73007EC94E /* Setting_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting_ViewController.m; sourceTree = "<group>"; };
+		C28F34CF15ADC1980005C928 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C28F34D215ADCABC0005C928 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C2931ACC15AACF6100FB6A60 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		C2931ACD15AACF6100FB6A60 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		C2931B2B15AD122500FB6A60 /* credit_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = credit_ViewController.h; sourceTree = "<group>"; };
+		C2931B2C15AD122500FB6A60 /* credit_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = credit_ViewController.m; sourceTree = "<group>"; };
+		C2B5783715F754CC00EB195A /* Warashibe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Warashibe.xcdatamodel; sourceTree = "<group>"; };
+		C2D5BA4615F5E18A00863BAA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2DB57F715F883920044A6E0 /* CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataClass.h; sourceTree = "<group>"; };
+		C2DB57F815F883920044A6E0 /* CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataClass.m; sourceTree = "<group>"; };
+		C2DB57FD15F88F9A0044A6E0 /* PersonCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonCon.h; path = ../PersonCon.h; sourceTree = "<group>"; };
+		C2DB57FE15F88F9A0044A6E0 /* PersonCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonCon.m; path = ../PersonCon.m; sourceTree = "<group>"; };
+		C2DB583B15FA0BB30044A6E0 /* warawara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warawara.png; sourceTree = "<group>"; };
+		C2DB583D15FA0BC50044A6E0 /* TabMigi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabMigi.png; sourceTree = "<group>"; };
+		C2E45B1715F5BF0D008BBD1E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C2E45B1815F5BF0D008BBD1E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C2FA49D215B6F96E00DE20C5 /* warashibe1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = warashibe1.jpg; sourceTree = "<group>"; };
+		C2FA4A6715BBBB7200DE20C5 /* NAVController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAVController1.h; sourceTree = "<group>"; };
+		C2FA4A6815BBBB7200DE20C5 /* NAVController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAVController1.m; sourceTree = "<group>"; };
+		C2FA4A6B15BBC33900DE20C5 /* NAVController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAVController2.h; sourceTree = "<group>"; };
+		C2FA4A6C15BBC33900DE20C5 /* NAVController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAVController2.m; sourceTree = "<group>"; };
+		C2FA4A6E15BBC34A00DE20C5 /* NAVController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAVController3.h; sourceTree = "<group>"; };
+		C2FA4A6F15BBC34A00DE20C5 /* NAVController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAVController3.m; sourceTree = "<group>"; };
+		C2FA4A7515BBC67A00DE20C5 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		C2FA4A7615BBC67A00DE20C5 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2277B5315A6FD7600FACA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D5BA4715F5E18A00863BAA /* CoreData.framework in Frameworks */,
+				C28F34D315ADCABC0005C928 /* Accounts.framework in Frameworks */,
+				C28F34D015ADC1980005C928 /* Twitter.framework in Frameworks */,
+				C2277B5B15A6FD7600FACA09 /* UIKit.framework in Frameworks */,
+				C2277B5D15A6FD7600FACA09 /* Foundation.framework in Frameworks */,
+				C2277B5F15A6FD7600FACA09 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2277B4B15A6FD7600FACA09 = {
+			isa = PBXGroup;
+			children = (
+				C2277B6015A6FD7600FACA09 /* Warashibe */,
+				C2277B5915A6FD7600FACA09 /* Frameworks */,
+				C2277B5715A6FD7600FACA09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2277B5715A6FD7600FACA09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2277B5615A6FD7600FACA09 /* Warashibe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2277B5915A6FD7600FACA09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D5BA4615F5E18A00863BAA /* CoreData.framework */,
+				C28F34D215ADCABC0005C928 /* Accounts.framework */,
+				C28F34CF15ADC1980005C928 /* Twitter.framework */,
+				C2277B5A15A6FD7600FACA09 /* UIKit.framework */,
+				C2277B5C15A6FD7600FACA09 /* Foundation.framework */,
+				C2277B5E15A6FD7600FACA09 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2277B6015A6FD7600FACA09 /* Warashibe */ = {
+			isa = PBXGroup;
+			children = (
+				C2FA4A6115BBBB1400DE20C5 /* CONTROLLER */,
+				C2FA4A6315BBBB1E00DE20C5 /* VIEW */,
+				C2FA4A6215BBBB1A00DE20C5 /* MODEL */,
+				C2DB583A15F9F9850044A6E0 /* image */,
+				C2277B6115A6FD7600FACA09 /* Supporting Files */,
+			);
+			path = Warashibe;
+			sourceTree = "<group>";
+		};
+		C2277B6115A6FD7600FACA09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2277B6215A6FD7600FACA09 /* Warashibe-Info.plist */,
+				C2277B6315A6FD7600FACA09 /* InfoPlist.strings */,
+				C2277B6615A6FD7600FACA09 /* main.m */,
+				C2277B6815A6FD7600FACA09 /* Warashibe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2DB583A15F9F9850044A6E0 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C24CFC1215FF586100989161 /* tabpen.png */,
+				C24CFC1015FF585200989161 /* tab.png */,
+				C2DB583B15FA0BB30044A6E0 /* warawara.png */,
+				C2DB583D15FA0BC50044A6E0 /* TabMigi.png */,
+				C2FA49D215B6F96E00DE20C5 /* warashibe1.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		C2FA4A6115BBBB1400DE20C5 /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				C2277B6915A6FD7600FACA09 /* AppDelegate.h */,
+				C2277B6A15A6FD7600FACA09 /* AppDelegate.m */,
+				C2B5783615F754CC00EB195A /* Warashibe.xcdatamodeld */,
+				C2E45B1715F5BF0D008BBD1E /* Person.h */,
+				C2E45B1815F5BF0D008BBD1E /* Person.m */,
+				C2DB57FD15F88F9A0044A6E0 /* PersonCon.h */,
+				C2DB57FE15F88F9A0044A6E0 /* PersonCon.m */,
+			);
+			name = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		C2FA4A6215BBBB1A00DE20C5 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				C2FA4A7515BBC67A00DE20C5 /* XMLParser.h */,
+				C2FA4A7615BBC67A00DE20C5 /* XMLParser.m */,
+				C2DB57F715F883920044A6E0 /* CoreDataClass.h */,
+				C2DB57F815F883920044A6E0 /* CoreDataClass.m */,
+			);
+			name = MODEL;
+			sourceTree = "<group>";
+		};
+		C2FA4A6315BBBB1E00DE20C5 /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				C2FA4A6A15BBC32400DE20C5 /* NAVs */,
+				C2FA4A6415BBBB2300DE20C5 /* SCENES */,
+			);
+			name = VIEW;
+			sourceTree = "<group>";
+		};
+		C2FA4A6415BBBB2300DE20C5 /* SCENES */ = {
+			isa = PBXGroup;
+			children = (
+				C2277B7515A6FF7400FACA09 /* ViewController1.h */,
+				C2277B7615A6FF7400FACA09 /* ViewController1.m */,
+				C2277B7815A6FF8700FACA09 /* ViewController2.h */,
+				C2277B7915A6FF8700FACA09 /* ViewController2.m */,
+				C2931ACC15AACF6100FB6A60 /* ViewController3.h */,
+				C2931ACD15AACF6100FB6A60 /* ViewController3.m */,
+				C28C4D6115A71D73007EC94E /* Setting_ViewController.h */,
+				C28C4D6215A71D73007EC94E /* Setting_ViewController.m */,
+				C2931B2B15AD122500FB6A60 /* credit_ViewController.h */,
+				C2931B2C15AD122500FB6A60 /* credit_ViewController.m */,
+				C278B65C15CA6D4500EAAC00 /* koukan_ViewController.h */,
+				C278B65D15CA6D4500EAAC00 /* koukan_ViewController.m */,
+			);
+			name = SCENES;
+			sourceTree = "<group>";
+		};
+		C2FA4A6A15BBC32400DE20C5 /* NAVs */ = {
+			isa = PBXGroup;
+			children = (
+				C2FA4A6715BBBB7200DE20C5 /* NAVController1.h */,
+				C2FA4A6815BBBB7200DE20C5 /* NAVController1.m */,
+				C2FA4A6B15BBC33900DE20C5 /* NAVController2.h */,
+				C2FA4A6C15BBC33900DE20C5 /* NAVController2.m */,
+				C2FA4A6E15BBC34A00DE20C5 /* NAVController3.h */,
+				C2FA4A6F15BBC34A00DE20C5 /* NAVController3.m */,
+			);
+			name = NAVs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2277B5515A6FD7600FACA09 /* Warashibe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2277B6E15A6FD7600FACA09 /* Build configuration list for PBXNativeTarget "Warashibe" */;
+			buildPhases = (
+				C2277B5215A6FD7600FACA09 /* Sources */,
+				C2277B5315A6FD7600FACA09 /* Frameworks */,
+				C2277B5415A6FD7600FACA09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Warashibe;
+			productName = Warashibe;
+			productReference = C2277B5615A6FD7600FACA09 /* Warashibe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2277B4D15A6FD7600FACA09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C2277B5015A6FD7600FACA09 /* Build configuration list for PBXProject "Warashibe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2277B4B15A6FD7600FACA09;
+			productRefGroup = C2277B5715A6FD7600FACA09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2277B5515A6FD7600FACA09 /* Warashibe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2277B5415A6FD7600FACA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2277B6515A6FD7600FACA09 /* InfoPlist.strings in Resources */,
+				C2FA49D315B6F96E00DE20C5 /* warashibe1.jpg in Resources */,
+				C2DB583C15FA0BB30044A6E0 /* warawara.png in Resources */,
+				C2DB583E15FA0BC50044A6E0 /* TabMigi.png in Resources */,
+				C24CFC1115FF585200989161 /* tab.png in Resources */,
+				C24CFC1315FF586100989161 /* tabpen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2277B5215A6FD7600FACA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2277B6715A6FD7600FACA09 /* main.m in Sources */,
+				C2277B6B15A6FD7600FACA09 /* AppDelegate.m in Sources */,
+				C2277B7715A6FF7400FACA09 /* ViewController1.m in Sources */,
+				C2277B7A15A6FF8700FACA09 /* ViewController2.m in Sources */,
+				C28C4D6315A71D73007EC94E /* Setting_ViewController.m in Sources */,
+				C2931ACE15AACF6100FB6A60 /* ViewController3.m in Sources */,
+				C2931B2D15AD122500FB6A60 /* credit_ViewController.m in Sources */,
+				C2FA4A6915BBBB7200DE20C5 /* NAVController1.m in Sources */,
+				C2FA4A6D15BBC33900DE20C5 /* NAVController2.m in Sources */,
+				C2FA4A7015BBC34A00DE20C5 /* NAVController3.m in Sources */,
+				C2FA4A7715BBC67A00DE20C5 /* XMLParser.m in Sources */,
+				C278B65E15CA6D4500EAAC00 /* koukan_ViewController.m in Sources */,
+				C2E45B1915F5BF0D008BBD1E /* Person.m in Sources */,
+				C2B5783815F754CC00EB195A /* Warashibe.xcdatamodeld in Sources */,
+				C2DB57F915F883920044A6E0 /* CoreDataClass.m in Sources */,
+				C2DB57FF15F88F9C0044A6E0 /* PersonCon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2277B6315A6FD7600FACA09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2277B6415A6FD7600FACA09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2277B6C15A6FD7600FACA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2277B6D15A6FD7600FACA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2277B6F15A6FD7600FACA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Warashibe/Warashibe-Prefix.pch";
+				INFOPLIST_FILE = "Warashibe/Warashibe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2277B7015A6FD7600FACA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Warashibe/Warashibe-Prefix.pch";
+				INFOPLIST_FILE = "Warashibe/Warashibe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2277B5015A6FD7600FACA09 /* Build configuration list for PBXProject "Warashibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2277B6C15A6FD7600FACA09 /* Debug */,
+				C2277B6D15A6FD7600FACA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2277B6E15A6FD7600FACA09 /* Build configuration list for PBXNativeTarget "Warashibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2277B6F15A6FD7600FACA09 /* Debug */,
+				C2277B7015A6FD7600FACA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2B5783615F754CC00EB195A /* Warashibe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2B5783715F754CC00EB195A /* Warashibe.xcdatamodel */,
+			);
+			currentVersion = C2B5783715F754CC00EB195A /* Warashibe.xcdatamodel */;
+			path = Warashibe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2277B4D15A6FD7600FACA09 /* Project object */;
+}
